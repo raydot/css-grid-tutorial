@@ -1,0 +1,29 @@
+.grid {
+    background-color: aqua;
+    border: 1px solid #fff;
+    display: grid;
+
+    /*grid-template-columns: 200px 200px;
+    /* Two columns, each with a width of 200px */
+    /* Four columns */
+    /* grid-template-columns: 200px 100px 100px 200px; */
+
+    /* Using px or vw or fr */
+    grid-template-columns: 1fr 2fr;
+    /* 2nd column 2x width of 1st */
+
+
+    grid-template-rows: auto auto;
+    /* two rows, each with a height of auto
+
+    /* add a gap! */
+    grid-gap: 10px
+}
+
+.yellow-color {
+    background-color: yellow;
+    /* grid-row-start: 1;
+    grid-row-end: 5; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
